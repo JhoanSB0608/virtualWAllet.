@@ -41,10 +41,6 @@ body {
     gap: 5px;
 }
 
-.logo__icono {
-    /* background: green; */
-}
-
 .logo__icono img {
     width: 3em;
 }
@@ -56,17 +52,11 @@ body {
     text-transform: uppercase;
 }
 
-.header__menu {
-    /* background: darkblue; */
-}
+
 
 .header__menu i {
     font-size: 3em;
     color: var(--color-ternario);
-}
-
-.main__titulo {
-    /* background: red; */
 }
 
 .titulo__card {
@@ -173,10 +163,6 @@ progress[value]::-moz-progress-bar {
     gap: .5em;
 }
 
-.activities__service {
-    /* background: blue; */
-}
-
 .activities__service h3,
 .activities__transactions h3 {
     /* background: darkgoldenrod; */
@@ -215,16 +201,6 @@ progress[value]::-moz-progress-bar {
 
 .service__cards div i {
     font-size: 2.3em;
-}
-
-.service__cards__item_1,
-.service__cards__item_2,
-.service__cards__item_3 {
-    /* background: darkmagenta; */
-}
-
-.activities__transactions {
-    /* background: red; */
 }
 
 .transactions__cards {
