@@ -25,8 +25,6 @@ body {
 .header {
     width: 100%;
     padding: 0 .5em;
-    /* height: 60px; */
-    /* background: darkgoldenrod; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,7 +33,6 @@ body {
 }
 
 .header__logo {
-    /* background: red; */
     display: flex;
     align-items: center;
     gap: 5px;
@@ -46,13 +43,10 @@ body {
 }
 
 .logo__titulo {
-    /* background: orange; */
     color: var(--color-ternario);
     font-family: "SF-Pro-Text-Bold";
     text-transform: uppercase;
 }
-
-
 
 .header__menu i {
     font-size: 3em;
@@ -60,7 +54,6 @@ body {
 }
 
 .titulo__card {
-    /* background: green; */
     display: flex;
     flex-direction: column;
     height: 120px;
@@ -85,7 +78,6 @@ body {
 }
 
 .titulo__balance {
-    /* background: fuchsia; */
     color: var(--color-ternario);
     display: flex;
     height: 130px;
@@ -130,7 +122,6 @@ progress[value] {
     -moz-appearance: none;
     appearance: none;
     border: none;
-    /* margin: 0 10px; */
     height: .5em;
     border-radius: 10em;
 }
@@ -165,7 +156,6 @@ progress[value]::-moz-progress-bar {
 
 .activities__service h3,
 .activities__transactions h3 {
-    /* background: darkgoldenrod; */
     text-transform: capitalize;
     font-family: "SF-Pro-Text-Bold";
     font-size: 1.3em;
@@ -173,7 +163,6 @@ progress[value]::-moz-progress-bar {
 }
 
 .service__cards {
-    /* background: olivedrab; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -204,7 +193,6 @@ progress[value]::-moz-progress-bar {
 }
 
 .transactions__cards {
-    /* background: orangered; */
     height: 460px;
     display: flex;
     flex-direction: column;
@@ -213,7 +201,6 @@ progress[value]::-moz-progress-bar {
 }
 
 .transactions__cards div {
-    /* background: darkgoldenrod; */
     height: 45px;
     display: flex;
     flex-direction: row;
@@ -278,11 +265,11 @@ i.bxs-down-arrow {
 }
 
 .footer ul li a img {
-    width: 2em; 
-    height: auto; 
-    transition: fill 0.3s ease; 
+    width: 2em;
+    height: auto;
+    transition: fill 0.3s ease;
 }
 
 .footer ul li a:hover img {
-    filter: invert(46%) sepia(95%) saturate(5580%) hue-rotate(155deg) brightness(106%) contrast(95%); 
+    filter: invert(46%) sepia(95%) saturate(5580%) hue-rotate(155deg) brightness(106%) contrast(95%);
 }
