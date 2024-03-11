@@ -28,11 +28,12 @@ body {
 .fondo {
     position: absolute;
     background-color: var(--color-primario);
-    width: 100vw;
+    width: 105vw;
     height: 100vw;
     z-index: -1;
     border-radius: 50%;
     top: -48vw;
+    left: -12px;
 }
 
 .header {
