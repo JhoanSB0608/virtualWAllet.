@@ -57,14 +57,14 @@ body {
 }
 
 .logo__titulo {
-    color: var(--color-ternario);
+    color: var(--color-secundario);
     font-family: "SF-Pro-Text-Bold";
     text-transform: uppercase;
 }
 
 .header__menu i {
     font-size: 3em;
-    color: var(--color-ternario);
+    color: var(--color-cuarto);
 }
 
 .total {
@@ -137,6 +137,8 @@ body {
 
 .grafica__img img {
     width: 100%;
+    height: 25vh;
+    margin-bottom: 3vh;
 }
 
 .spending {
@@ -146,17 +148,17 @@ body {
 
 .spending__close {
     text-align: right;
-    font-size: 10vw;
+    font-size: 7vw;
     color: var(--color-secundario);
     padding-right: 3vw;
-    padding-top: 3vw;
+    padding-top: 1vw;
 }
 
 .spending__card {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 4vw 4vw;
+    padding: 4vw 4vw 0 0;
 }
 
 .card__img {
@@ -164,7 +166,8 @@ body {
 }
 
 .card__img img {
-    width: 100%;
+    width: 125%;
+    height: 16vh;
 }
 
 .card__p {
@@ -206,5 +209,5 @@ body {
 }
 
 .footer ul li a:hover img {
-    filter: invert(46%) sepia(95%) saturate(5580%) hue-rotate(155deg) brightness(106%) contrast(95%);
+    filter: invert(46%) sepia(90%) saturate(5080%) hue-rotate(30deg) brightness(106%) contrast(90%);
 }

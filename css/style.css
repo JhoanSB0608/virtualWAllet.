@@ -43,14 +43,14 @@ body {
 }
 
 .logo__titulo {
-    color: var(--color-ternario);
+    color: var(--color-secundario);
     font-family: "SF-Pro-Text-Bold";
     text-transform: uppercase;
 }
 
 .header__menu i {
     font-size: 3em;
-    color: var(--color-ternario);
+    color: var(--color-cuarto);
 }
 
 .titulo__card {
@@ -64,7 +64,7 @@ body {
 .titulo__card h2,
 .titulo__card p {
     font-size: 2.3em;
-    color: var(--color-ternario);
+    color: var(--color-secundario);
     text-transform: capitalize;
 }
 
@@ -144,7 +144,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .main__activities {
-    background: var(--color-ternario);
+    background: var(--color-five);
     height: 100vh;
     padding: 1.5em 0.5em;
     border-top-left-radius: 20px;
@@ -186,6 +186,10 @@ progress[value]::-moz-progress-bar {
     justify-content: center;
     align-items: center;
     gap: 5px;
+}
+
+.service__cards p {
+    color: var(--color-secundario);
 }
 
 .service__cards div i {
@@ -271,5 +275,5 @@ i.bxs-down-arrow {
 }
 
 .footer ul li a:hover img {
-    filter: invert(46%) sepia(95%) saturate(5580%) hue-rotate(155deg) brightness(106%) contrast(95%);
+    filter: invert(46%) sepia(90%) saturate(5080%) hue-rotate(30deg) brightness(106%) contrast(90%);
 }
